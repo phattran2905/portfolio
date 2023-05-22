@@ -8,7 +8,7 @@ function Navbar({}: Props) {
 
   return (
     <nav className="flex w-full flex-col items-center justify-center">
-      <div className="flex w-5/6 flex-row items-center justify-between p-6">
+      <div className="flex w-5/6 flex-row items-center justify-between px-6 py-8 border-b-[1px] border-b-yellow">
         <a href="" className="font-Pacifico text-2xl font-bold text-white">
           Phat Tran
         </a>
