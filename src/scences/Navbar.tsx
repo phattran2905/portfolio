@@ -11,62 +11,62 @@ function Navbar({}: Props) {
   const [activeRoute, setActiveRoute] = useState<string>("home");
 
   return (
-    <nav
-      className={`flex md:w-5/6 w-full flex-col`}
-    >
-      <div className="flex flex-row items-center justify-between bg-primary md:py-6 md:px-14 py-6 px-10">
-        <a
-          href=""
-          className="cursor-pointer font-Pacifico text-[30px] font-bold capitalize text-yellow"
-        >
-          Phat Tran
-        </a>
+    <nav className={`flex w-full flex-col items-center bg-primary`}>
+      <div className="flex w-full flex-col md:w-5/6">
+        <div className="flex flex-row items-center justify-between bg-primary px-10 py-6 md:px-14 md:py-6">
+          <a
+            href=""
+            className="cursor-pointer font-Pacifico text-[30px] font-bold capitalize text-yellow"
+          >
+            Phat Tran
+          </a>
 
-        {isAboveMediumScreens ? (
-          <ul className="flex flex-row items-center">
-            {data.navLinks.map((navLink) => (
-              <NavLink
-                key={navLink.id}
-                {...navLink}
-                activeRoute={activeRoute}
-                setActiveRoute={setActiveRoute}
-              />
-            ))}
-          </ul>
-        ) : (
-          <>
-            <button type="button" onClick={() => setToggled(!toggled)}>
-              {!toggled ? (
-                <HiOutlineBars3CenterLeft
-                  size={36}
-                  className="text-white hover:text-secondary"
+          {isAboveMediumScreens ? (
+            <ul className="flex flex-row items-center">
+              {data.navLinks.map((navLink) => (
+                <NavLink
+                  key={navLink.id}
+                  {...navLink}
+                  activeRoute={activeRoute}
+                  setActiveRoute={setActiveRoute}
                 />
-              ) : (
-                <HiOutlineXMark
-                  size={36}
-                  className=" text-white hover:text-secondary"
-                />
-              )}
-            </button>
-
+              ))}
+            </ul>
+          ) : (
             <>
-              {toggled && (
-                <div className="absolute right-1 top-20 z-[50] w-[300px] rounded-lg border-t-4 border-t-secondary bg-primary shadow-xl">
-                  <ul className="flex flex-col items-center p-4">
-                    {data.navLinks.map((navLink) => (
-                      <NavLink
-                        key={navLink.id}
-                        {...navLink}
-                        activeRoute={activeRoute}
-                        setActiveRoute={setActiveRoute}
-                      />
-                    ))}
-                  </ul>
-                </div>
-              )}
+              <button type="button" onClick={() => setToggled(!toggled)}>
+                {!toggled ? (
+                  <HiOutlineBars3CenterLeft
+                    size={36}
+                    className="text-white hover:text-secondary"
+                  />
+                ) : (
+                  <HiOutlineXMark
+                    size={36}
+                    className=" text-white hover:text-secondary"
+                  />
+                )}
+              </button>
+
+              <>
+                {toggled && (
+                  <div className="absolute right-1 top-20 z-[50] w-[300px] rounded-lg border-t-4 border-t-secondary bg-primary shadow-xl">
+                    <ul className="flex flex-col items-center p-4">
+                      {data.navLinks.map((navLink) => (
+                        <NavLink
+                          key={navLink.id}
+                          {...navLink}
+                          activeRoute={activeRoute}
+                          setActiveRoute={setActiveRoute}
+                        />
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </>
             </>
-          </>
-        )}
+          )}
+        </div>
       </div>
     </nav>
   );

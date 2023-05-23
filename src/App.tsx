@@ -5,12 +5,8 @@ import Header from "./scences/Header";
 function App() {
   return (
     <div className="">
-      <div className="flex flex-col items-center w-full bg-primary">
-        <Navbar />
-        {/* <Header /> */}
-      </div>
-
-      <div className=""></div>
+      <Navbar />
+      {/* <Header /> */}
     </div>
   );
 }
