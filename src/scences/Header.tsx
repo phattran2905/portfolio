@@ -1,6 +1,7 @@
 import images from "../constants/images";
 import { styles } from "../styles";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
 
 type Props = {};
 function Header({}: Props) {
@@ -35,8 +36,8 @@ function Header({}: Props) {
           </div>
 
           <div className="flex w-full flex-col">
-            <ul className="flex list-none flex-row items-center justify-start">
-              <li className="mr-4">
+            <ul className="flex list-none flex-row items-center justify-start gap-x-4">
+              <li>
                 <a
                   href="https://www.linkedin.com/in/phat-tran-413a171b5/"
                   target="_blank"
@@ -52,6 +53,14 @@ function Header({}: Props) {
                   className="text-tertiary hover:text-primary"
                 >
                   <FaGithub size={30} />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="text-tertiary hover:text-primary"
+                >
+                  <MdMail size={35} />
                 </a>
               </li>
             </ul>
