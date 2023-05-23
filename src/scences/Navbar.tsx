@@ -12,7 +12,7 @@ function Navbar({}: Props) {
   const [activeRoute, setActiveRoute] = useState<string>("home");
 
   return (
-    <nav className={`flex w-full flex-col items-center bg-primary`}>
+    <nav className={`${styles.sectionWrapper} bg-primary`}>
       <div className="flex w-full flex-col md:w-5/6">
         <div
           className={`flex flex-row items-center justify-between bg-primary ${styles.paddingX} ${styles.paddingY}`}

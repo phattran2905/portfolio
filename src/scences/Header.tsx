@@ -6,7 +6,9 @@ import { MdMail } from "react-icons/md";
 type Props = {};
 function Header({}: Props) {
   return (
-    <header className="flex w-full flex-col items-center bg-extra-light-gray">
+    <header
+      className={`${styles.sectionWrapper} bg-extra-light-gray`}
+    >
       <div
         className={`${styles.section} flex flex-col items-center justify-between md:flex-row ${styles.paddingX}`}
       >
@@ -56,10 +58,7 @@ function Header({}: Props) {
                 </a>
               </li>
               <li>
-                <a
-                  href="#contact"
-                  className="text-tertiary hover:text-primary"
-                >
+                <a href="#contact" className="text-tertiary hover:text-primary">
                   <MdMail size={35} />
                 </a>
               </li>
