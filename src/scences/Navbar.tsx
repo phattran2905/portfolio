@@ -3,6 +3,7 @@ import NavLink from "../component/NavLink";
 import data from "../constants/data";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { HiOutlineBars3CenterLeft, HiOutlineXMark } from "react-icons/hi2";
+import { styles } from "../styles";
 
 type Props = {};
 function Navbar({}: Props) {
@@ -13,7 +14,9 @@ function Navbar({}: Props) {
   return (
     <nav className={`flex w-full flex-col items-center bg-primary`}>
       <div className="flex w-full flex-col md:w-5/6">
-        <div className="flex flex-row items-center justify-between bg-primary px-10 py-6 md:px-14 md:py-6">
+        <div
+          className={`flex flex-row items-center justify-between bg-primary ${styles.paddingX} ${styles.paddingY}`}
+        >
           <a
             href=""
             className="cursor-pointer font-Pacifico text-[30px] font-bold capitalize text-yellow"
