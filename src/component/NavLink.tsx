@@ -6,18 +6,18 @@ type Props = {
 };
 
 function NavLink({ id, title, activeRoute, setActiveRoute }: Props) {
-  const activeStyle = "font-semibold text-[16px] text-yellow underline";
+  const activeStyle = "font-semibold underline text-yellow";
   const inactiveStyle =
-    "font-normal text-white no-underline hover:text-yellow hover:underline";
+    "font-normal no-underline text-white hover:text-yellow hover:underline";
 
   return (
-    <li
-      className={`text-[16px] ${
-        activeRoute === id ? activeStyle : inactiveStyle
-      } `}
-      onClick={() => setActiveRoute(id)}
-    >
-      <a href={`#${id}`} className="">
+    <li onClick={() => setActiveRoute(id)}>
+      <a
+        href={`#${id}`}
+        className={`block p-3 text-center text-[16px] ${
+          activeRoute === id ? activeStyle : inactiveStyle
+        } `}
+      >
         {title}
       </a>
     </li>

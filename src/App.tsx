@@ -4,13 +4,13 @@ import Header from "./scences/Header";
 
 function App() {
   return (
-    <div className="bg-black">
-      <div className="bg-primary">
+    <div className="">
+      <div className="flex flex-col items-center w-full bg-primary">
         <Navbar />
-        <Header />
+        {/* <Header /> */}
       </div>
 
-      <div className="bg-black"></div>
+      <div className=""></div>
     </div>
   );
 }
