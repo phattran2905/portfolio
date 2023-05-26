@@ -1,6 +1,7 @@
 import Navbar from "./scences/Navbar";
 import Header from "./scences/Header";
 import Services from "./scences/Services";
+import Footer from "./scences/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Header />
       <Services />
+      <Footer />
     </div>
   );
 }
