@@ -1,12 +1,15 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import SocialIcon from "../component/SocialIcon";
 import data from "../constants/data";
+import { styles } from "../styles";
 
 type Props = {};
 function Footer({}: Props) {
   return (
     <footer className="flex w-full flex-col items-center justify-center">
-      <div className="my-10 flex w-full flex-row items-center justify-between md:w-5/6">
+      <div
+        className={`my-10 flex flex-row items-center justify-between ${styles.section} ${styles.paddingX}`}
+      >
         <p className="text-[16px] font-normal leading-[24px] text-tertiary">
           &copy; 2023 Phat Tran. All rights reserved.
         </p>
