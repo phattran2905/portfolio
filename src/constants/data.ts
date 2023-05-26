@@ -14,7 +14,15 @@ const info = {
 };
 
 const about = {};
-const experience = {};
+const workExperience = [
+  {
+    company: "Pi Solution",
+    timeline: "March 2021 - September 2021",
+    position: "Javascript Developer",
+    description:
+      "A visual designer designs for a variety of platforms, which may include internet and intranet sites, games, movies and wearables in short, they create a concepts",
+  },
+];
 const skills = {};
 const projects = {};
 
@@ -22,7 +30,7 @@ export default {
   navLinks,
   info,
   about,
-  experience,
+  workExperience,
   skills,
   projects,
 };
