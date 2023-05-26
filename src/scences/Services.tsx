@@ -1,6 +1,6 @@
 import Service from "../component/Service";
 import { styles } from "../styles";
-import { BsCodeSlash,BsSearch,BsCheckCircle } from "react-icons/bs";
+import { BsCodeSlash, BsSearch, BsCheckCircle } from "react-icons/bs";
 import { BiMobile } from "react-icons/bi";
 
 type Props = {};
@@ -9,10 +9,8 @@ function Services({}: Props) {
     <section id="services" className={`${styles.sectionWrapper} `}>
       <div className={`${styles.section} ${styles.paddingX}`}>
         <div className="mb-6">
-          <h2 className="text-[48px] font-semibold leading-[57.6px] -tracking-[0.025em] text-black">
-            What do I help?
-          </h2>
-          <p className="my-8 text-[18px] font-normal leading-[34px] text-tertiary">
+          <h2 className={`${styles.heading2}`}>What do I help?</h2>
+          <p className={`${styles.paragraph} my-8`}>
             I will help you with finding a solution and solve your problems. We
             use proccess design to create digital products. besides that i also
             help their business

@@ -2,9 +2,7 @@ import SocialIcon from "../component/SocialIcon";
 import data from "../constants/data";
 import images from "../constants/images";
 import { styles } from "../styles";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { MdMail } from "react-icons/md";
 
 type Props = {};
 function Header({}: Props) {
