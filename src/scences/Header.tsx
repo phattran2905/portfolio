@@ -1,18 +1,19 @@
+import SocialIcon from "../component/SocialIcon";
+import data from "../constants/data";
 import images from "../constants/images";
 import { styles } from "../styles";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdMail } from "react-icons/md";
 
 type Props = {};
 function Header({}: Props) {
   return (
-    <header
-      className={`${styles.sectionWrapper} bg-extra-light-gray`}
-    >
+    <header className={`${styles.sectionWrapper} bg-extra-light-gray`}>
       <div
         className={`${styles.section} flex flex-col items-center justify-between md:flex-row ${styles.paddingX}`}
       >
-        <div className="flex basis-6/12 flex-col items-start justify-between gap-y-10 md:gap-y-20">
+        <div className="flex basis-6/12 flex-col items-start justify-between gap-y-10 md:gap-y-16">
           <div className="">
             <h1 className="text-[32px] font-semibold text-black">
               Hi! I'm <span className="text-red">Phat Tran</span> and I'm a
@@ -40,27 +41,14 @@ function Header({}: Props) {
           <div className="flex w-full flex-col">
             <ul className="flex list-none flex-row items-center justify-start gap-x-4">
               <li>
-                <a
-                  href="https://www.linkedin.com/in/phat-tran-413a171b5/"
-                  target="_blank"
-                  className="text-tertiary hover:text-primary hover:shadow-md hover:shadow-primary"
-                >
-                  <FaLinkedin size={30} />
-                </a>
+                <SocialIcon href={data.info.LinkedIn}>
+                  <BsLinkedin size={30} />
+                </SocialIcon>
               </li>
               <li>
-                <a
-                  href="https://github.com/phattran2905"
-                  target="_blank"
-                  className="text-tertiary hover:text-primary"
-                >
-                  <FaGithub size={30} />
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-tertiary hover:text-primary">
-                  <MdMail size={35} />
-                </a>
+                <SocialIcon href={data.info.GitHub}>
+                  <BsGithub size={30} />
+                </SocialIcon>
               </li>
             </ul>
           </div>

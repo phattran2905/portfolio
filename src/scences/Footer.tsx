@@ -1,5 +1,4 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { styles } from "../styles";
 import SocialIcon from "../component/SocialIcon";
 import data from "../constants/data";
 

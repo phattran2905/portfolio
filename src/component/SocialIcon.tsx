@@ -5,7 +5,11 @@ type Props = {
 
 function SocialIcon({ href, children }: Props) {
   return (
-    <a href={href} target="_blank" className="text-tertiary hover:text-primary">
+    <a
+      href={href}
+      target="_blank"
+      className="text-tertiary hover:text-primary hover:shadow-md hover:shadow-primary"
+    >
       {children}
     </a>
   );
