@@ -52,7 +52,104 @@ const education = [
     logo: images.nicLogo,
   },
 ];
-const skills = {};
+const skills = [
+  {
+    name: "HTML",
+    logo: images.htmlLogo,
+  },
+  {
+    name: "CSS",
+    logo: images.cssLogo,
+  },
+  {
+    name: "SASS",
+    logo: images.sassLogo,
+  },
+  {
+    name: "Javascript",
+    logo: images.javascriptLogo,
+  },
+  {
+    name: "Typescript",
+    logo: images.typescriptLogo,
+  },
+  {
+    name: "React",
+    logo: images.reactLogo,
+  },
+  {
+    name: "NodeJS",
+    logo: images.nodeJSLogo,
+  },
+  {
+    name: "ExpressJS",
+    logo: images.expressJsLogo,
+  },
+  {
+    name: "MongoDB",
+    logo: images.mongoDbLogo,
+  },
+  {
+    name: "React Native",
+    logo: images.reactNativeLogo,
+  },
+  {
+    name: "Redux",
+    logo: images.reduxLogo,
+  },
+  {
+    name: "TailwindCSS",
+    logo: images.tailwindcssLogo,
+  },
+  {
+    name: "Git",
+    logo: images.gitLogo,
+  },
+  {
+    name: "Postgresql",
+    logo: images.postgresqlLogo,
+  },
+  {
+    name: "Prisma ORM",
+    logo: images.prismaLogo,
+  },
+  {
+    name: "PHP",
+    logo: images.phpLogo,
+  },
+  {
+    name: "MySQL",
+    logo: images.mySQLLogo,
+  },
+  {
+    name: "WordPress",
+    logo: images.wordPressLogo,
+  },
+  {
+    name: "Photoshop",
+    logo: images.photoshopLogo,
+  },
+  {
+    name: "Adobe XD",
+    logo: images.adobeXdLogo,
+  },
+  {
+    name: "Figma",
+    logo: images.figmaLogo,
+  },
+  {
+    name: "Kotlin",
+    logo: images.kotlinLogo,
+  },
+  {
+    name: "C++",
+    logo: images.cPPLogo,
+  },
+  {
+    name: "Solidity",
+    logo: images.solidityLogo,
+  },
+];
 const projects = {};
 
 export default {

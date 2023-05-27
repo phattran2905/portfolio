@@ -4,6 +4,7 @@ import Services from "./scences/Services";
 import Footer from "./scences/Footer";
 import WorkExperience from "./scences/WorkExperience";
 import Education from "./scences/Education";
+import TechStack from "./scences/TechStack";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <WorkExperience />
       <Education />
+      <TechStack />
       <Footer />
     </div>
   );

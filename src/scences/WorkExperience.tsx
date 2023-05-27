@@ -9,7 +9,7 @@ function WorkExperience({}: Props) {
     <section id="work-experience" className={`${styles.sectionWrapper}`}>
       <div className={`${styles.section} ${styles.paddingX}`}>
         <div className="mb-4">
-          <h2 className={`${styles.heading2}`}>My Work Experience</h2>
+          <h2 className={`${styles.heading2}`}>Work Experience</h2>
           <p className={`${styles.paragraph} my-6`}>
             Passionate to craft amazing digital product. I can provide your
             business a new creative start right away!
