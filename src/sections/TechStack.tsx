@@ -5,10 +5,7 @@ import { styles } from "../styles";
 type Props = {};
 function Skills({}: Props) {
   return (
-    <section
-      id="skills"
-      className={`${styles.sectionWrapper} bg-extra-light-gray`}
-    >
+    <section id="skills" className={`${styles.sectionWrapper} bg-indigo-50`}>
       <div className={`${styles.section} flex flex-col items-center`}>
         <h2 className={`${styles.heading2} mb-6 capitalize`}>Tech stack</h2>
         <div className="grid w-full grid-cols-6 justify-center gap-y-20 whitespace-break-spaces py-10 md:gap-x-32">
