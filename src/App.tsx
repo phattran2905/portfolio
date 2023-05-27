@@ -3,6 +3,7 @@ import Header from "./scences/Header";
 import Services from "./scences/Services";
 import Footer from "./scences/Footer";
 import WorkExperience from "./scences/WorkExperience";
+import Education from "./scences/Education";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Services />
       <WorkExperience />
+      <Education />
       <Footer />
     </div>
   );

@@ -7,37 +7,40 @@ type Props = {
   };
   col2: {
     title: string;
+    subtitle: string;
     description: string;
   };
   colorName?: string;
+  icon: React.ReactNode;
 };
 
-function TwoColsTimeline({ col1, col2, colorName }: Props) {
+function TwoColsTimeline({ col1, col2, colorName, icon }: Props) {
   const bgColor = colorName ? `bg-${colorName}` : "bg-gray";
   const borderColor = colorName ? `border-${colorName}` : "border-gray";
 
   return (
-    <div className="flex flex-row">
-      <div className="basis-4/12">
-        <div className="flex flex-col py-6">
+    <div className="flex flex-row ">
+      <div className="basis-4/12 ">
+        <div className="relative flex h-full flex-col py-8">
           <h5 className={`${styles.heading5}`}>{col1.title}</h5>
-          <p className={`${styles.paragraph} my-2`}>{col1.description}</p>
+          <p className={`${styles.paragraph}`}>{col1.description}</p>
         </div>
       </div>
 
-      <div className="basis-8/12">
-        <div className="flex h-full w-full flex-row items-stretch">
+      <div className="basis-8/12 ">
+        <div className="flex h-full w-full flex-row items-stretch ">
           <div className={`relative w-[5px] ${bgColor}`}>
             <div
-              className={`border- absolute -left-[11px] top-7 flex h-[26px] w-[26px] items-center justify-center rounded-full border-2 ${borderColor} bg-white`}
+              className={`border- absolute -left-[25px] top-7 flex h-[56px] w-[56px] items-center justify-center rounded-full border-2 ${borderColor} bg-white p-2`}
             >
-              <div
-                className={`h-[10px] w-[10px] rounded-full ${bgColor}`}
-              ></div>
+              {icon}
             </div>
           </div>
-          <div className="ml-6 w-full px-4 py-6">
+          <div className=" ml-6 w-full px-10 py-8">
             <h5 className={`${styles.heading5}`}>{col2.title}</h5>
+            <p className={`my-1 font-bold italic text-tertiary`}>
+              {col2.subtitle}
+            </p>
             <p className={`${styles.paragraph} my-2`}>{col2.description}</p>
           </div>
         </div>
