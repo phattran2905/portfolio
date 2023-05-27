@@ -28,6 +28,7 @@ function WorkExperience({}: Props) {
               col2={{
                 title: experience.position,
                 description: experience.description,
+                subtitle: experience.subtitle,
               }}
               icon={<BsBriefcaseFill size={26} className="text-blue-500" />}
             />

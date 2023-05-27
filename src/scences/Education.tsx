@@ -1,4 +1,3 @@
-import { IoMdSchool } from "react-icons/io";
 import TwoColsTimeline from "../component/TwoColsTimeline";
 import data from "../constants/data";
 import { styles } from "../styles";
