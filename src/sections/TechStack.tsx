@@ -11,7 +11,7 @@ function Skills({}: Props) {
     >
       <div className={`${styles.section} flex flex-col items-center`}>
         <h2 className={`${styles.heading2} mb-6 capitalize`}>Tech stack</h2>
-        <div className="grid w-full grid-cols-6 justify-center gap-x-32 gap-y-20 whitespace-break-spaces py-10">
+        <div className="grid w-full grid-cols-6 justify-center gap-y-20 whitespace-break-spaces py-10 md:gap-x-32">
           {data.skills.map((skill) => (
             <SkillBox key={skill.name} name={skill.name} logo={skill.logo} />
           ))}

@@ -1,10 +1,10 @@
-import Navbar from "./scences/Navbar";
-import Header from "./scences/Header";
-import Services from "./scences/Services";
-import Footer from "./scences/Footer";
-import WorkExperience from "./scences/WorkExperience";
-import Education from "./scences/Education";
-import TechStack from "./scences/TechStack";
+import Navbar from "./sections/Navbar";
+import Header from "./sections/Header";
+import Services from "./sections/Services";
+import Footer from "./sections/Footer";
+import WorkExperience from "./sections/WorkExperience";
+import Education from "./sections/Education";
+import TechStack from "./sections/TechStack";
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <Header />
       <Services />
-      <WorkExperience />
       <Education />
       <TechStack />
+      <WorkExperience />
       <Footer />
     </div>
   );
