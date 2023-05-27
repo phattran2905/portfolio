@@ -23,6 +23,15 @@ const workExperience = [
       "A visual designer designs for a variety of platforms, which may include internet and intranet sites, games, movies and wearables in short, they create a concepts",
   },
 ];
+const education = [
+  {
+    school: "Pi Solution",
+    timeline: "March 2021 - September 2021",
+    degreeName: "Javascript Developer",
+    major:
+      "A visual designer designs for a variety of platforms, which may include internet and intranet sites, games, movies and wearables in short, they create a concepts",
+  },
+];
 const skills = {};
 const projects = {};
 

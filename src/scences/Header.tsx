@@ -14,16 +14,16 @@ function Header({}: Props) {
         <div className="flex basis-6/12 flex-col items-start justify-between gap-y-10 md:gap-y-16">
           <div className="">
             <h1 className="text-[32px] font-semibold text-black">
-              Hi! I'm <span className="text-red">Phat Tran</span> and I'm a
+              Hi! I'm <span className="text-red">Phat Tran</span>
               <br />
-              <span className="mb-10 mt-6 block text-[64px] font-bold leading-[76px] text-primary">
+              <span className="mb-10 mt-6 inline-block text-[64px] font-bold leading-[76px] text-primary">
                 Web Developer
               </span>
             </h1>
 
             <p className="mb-10 text-[20px] font-normal leading-[36px] text-tertiary">
-              Hi I’m a UI/UX Designer, creating bold and brave Interface design
-              for companies all across the world
+              I’m a UI/UX Designer, creating bold and brave Interface design for
+              companies all across the world
             </p>
 
             <div className="flex flex-row">

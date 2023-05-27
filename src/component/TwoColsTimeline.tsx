@@ -26,17 +26,17 @@ function TwoColsTimeline({ col1, col2, colorName }: Props) {
       </div>
 
       <div className="basis-8/12">
-        <div className="flex h-full flex-row items-stretch">
-          <div className={`bg- relative w-[10px] ${bgColor}`}>
+        <div className="flex h-full w-full flex-row items-stretch">
+          <div className={`relative w-[5px] ${bgColor}`}>
             <div
               className={`border- absolute -left-[11px] top-7 flex h-[26px] w-[26px] items-center justify-center rounded-full border-2 ${borderColor} bg-white`}
             >
               <div
-                className={`bg- h-[10px] w-[10px] rounded-full ${bgColor}`}
+                className={`h-[10px] w-[10px] rounded-full ${bgColor}`}
               ></div>
             </div>
           </div>
-          <div className="ml-6 px-4 py-6">
+          <div className="ml-6 w-full px-4 py-6">
             <h5 className={`${styles.heading5}`}>{col2.title}</h5>
             <p className={`${styles.paragraph} my-2`}>{col2.description}</p>
           </div>
