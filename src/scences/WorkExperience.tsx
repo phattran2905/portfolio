@@ -1,4 +1,5 @@
-import { BsPersonWorkspace } from "react-icons/bs";
+import TwoColsTimeline from "../component/TwoColsTimeline";
+import data from "../constants/data";
 import { styles } from "../styles";
 
 type Props = {};
@@ -15,30 +16,20 @@ function WorkExperience({}: Props) {
         </div>
 
         <div className="flex flex-col py-10">
-          <div className="flex flex-row">
-            <div className="flex basis-4/12 flex-col py-6">
-              <h5 className={`${styles.heading5}`}>Global Solution</h5>
-              <p className={`${styles.paragraph} my-2`}>
-                March - September 2021
-              </p>
-            </div>
-
-            <div className="flex basis-8/12 flex-row">
-              <div className="relative h-full w-[10px] bg-gray">
-                <div className="absolute -left-[11px] top-7 flex h-[26px] w-[26px] items-center justify-center rounded-full border-2 border-gray bg-white">
-                  <div className="h-[10px] w-[10px] rounded-full bg-gray"></div>
-                </div>
-              </div>
-              <div className="ml-6 px-4 py-6">
-                <h5 className={`${styles.heading5}`}>Javascript Developer</h5>
-                <p className={`${styles.paragraph} my-2`}>
-                  A visual designer designs for a variety of platforms, which
-                  may include internet and intranet sites, games, movies and
-                  wearables in short, they create a concepts
-                </p>
-              </div>
-            </div>
-          </div>
+          {data.workExperience.map((experience, index) => (
+            <TwoColsTimeline
+              key={index}
+              colorName="primary"
+              col1={{
+                title: experience.company,
+                description: experience.timeline,
+              }}
+              col2={{
+                title: experience.position,
+                description: experience.description,
+              }}
+            />
+          ))}
         </div>
       </div>
     </section>
