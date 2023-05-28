@@ -16,7 +16,6 @@ type Props = {
 
 function TwoColsTimeline({ col1, col2, colorName, icon }: Props) {
   const bgColor = colorName ? `bg-${colorName}` : "bg-gray";
-  const borderColor = colorName ? `border-${colorName}` : "border-gray";
 
   return (
     <div className="flex flex-row ">
