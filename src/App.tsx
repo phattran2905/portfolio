@@ -5,6 +5,7 @@ import Footer from "./sections/Footer";
 import WorkExperience from "./sections/WorkExperience";
 import Education from "./sections/Education";
 import TechStack from "./sections/TechStack";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Education />
       <TechStack />
       <WorkExperience />
+      <Contact />
       <Footer />
     </div>
   );
