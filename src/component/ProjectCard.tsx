@@ -1,6 +1,5 @@
 import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
-import images from "../constants/images";
 
 type Props = {
   name: string;
@@ -19,7 +18,7 @@ function ProjectCard({
   techStackImages,
 }: Props) {
   return (
-    <div className="basis-1/3 bg-extra-light-gray shadow-md shadow-gray hover:shadow-primary">
+    <div className="basis-1/3 bg-extra-light-gray shadow-lg shadow-gray hover:shadow-primary">
       <h6 className="w-full rounded-t-[10px] bg-primary py-4 text-center font-bold text-white">
         {name}
       </h6>
@@ -32,8 +31,10 @@ function ProjectCard({
       </div>
       <div className="flex w-full flex-col gap-y-4 border-t-2 border-t-primary px-5 py-4">
         <p className={`text-[16px] font-normal text-tertiary`}>{description}</p>
-        <div className="flex flex-row gap-x-5">
-          <b className="block basis-1/3">Tech Stack:</b>
+        <div className="flex flex-col gap-y-1">
+          <span className="block basis-1/3 text-[14px] font-semibold">
+            Tech Stack
+          </span>
           <ul className="flex basis-2/3 list-none flex-row flex-wrap gap-2">
             {techStackImages.map((tech, index) => (
               <li

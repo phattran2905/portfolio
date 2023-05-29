@@ -6,6 +6,7 @@ import WorkExperience from "./sections/WorkExperience";
 import Education from "./sections/Education";
 import TechStack from "./sections/TechStack";
 import Contact from "./sections/Contact";
+import Projects from "./sections/Projects";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <WorkExperience />
       <TechStack />
+      <Projects />
       <Education />
       <Contact />
       <Footer />
