@@ -9,13 +9,13 @@ import Contact from "./sections/Contact";
 
 function App() {
   return (
-    <div className="">
+    <div className="app">
       <Navbar />
       <Header />
       <Services />
-      <Education />
-      <TechStack />
       <WorkExperience />
+      <TechStack />
+      <Education />
       <Contact />
       <Footer />
     </div>

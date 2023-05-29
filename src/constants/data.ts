@@ -12,7 +12,7 @@ const info = {
   Email: "phat.tran2905@gmail.com",
   GitHub: "https://github.com/phattran2905",
   LinkedIn: "https://www.linkedin.com/in/phat-tran-413a171b5/",
-  Phone: "778-585-9476",
+  Phone: "(+1) 778-585-9476",
   Location: "Canada",
 };
 

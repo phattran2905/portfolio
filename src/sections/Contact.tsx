@@ -99,13 +99,14 @@ function Contact({}: Props) {
                   htmlFor="message"
                   className="mb-2 text-[18px]  font-semibold"
                 >
-                  Leave me a message
+                  Message
                 </label>
                 <textarea
                   rows={7}
                   name="message"
                   id="message"
                   required
+                  placeholder="Leave me a message"
                   className="rounded-[5px] border-2 border-primary px-4 py-2 text-primary outline-none focus:border-secondary"
                   onChange={(e) => setMessage(e.target.value)}
                 />

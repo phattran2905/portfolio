@@ -5,10 +5,7 @@ import { styles } from "../styles";
 type Props = {};
 function Education({}: Props) {
   return (
-    <section
-      id="work-experience"
-      className={`${styles.sectionWrapper} bg-extra-light-gray`}
-    >
+    <section id="work-experience" className={`${styles.sectionWrapper} `}>
       <div className={`${styles.section} ${styles.paddingX}`}>
         <div className="mb-4">
           <h2 className={`${styles.heading2}`}>Education</h2>
