@@ -7,7 +7,7 @@ type Props = {
   description: string;
   demoUrl: string;
   githubUrl: string;
-  techStackImages: string[];
+  techStackImages: Array<{ name: string; img: string }>;
 };
 function ProjectCard({
   name,
@@ -42,8 +42,8 @@ function ProjectCard({
                 className="h-[32px] w-[32px] rounded-lg border-[1px] border-gray p-[1px] shadow-sm shadow-gray"
               >
                 <img
-                  src={tech}
-                  alt={tech}
+                  src={tech.img}
+                  alt={tech.name}
                   className="h-[100%] w-[100%] object-fill"
                 />
               </li>
