@@ -6,15 +6,15 @@ import { styles } from "../styles";
 type Props = {};
 function Footer({}: Props) {
   return (
-    <footer className="flex w-full flex-col items-center justify-center">
+    <footer className="flex w-full flex-col items-center justify-center bg-black">
       <div
-        className={`my-10 flex flex-row items-center justify-between ${styles.section} ${styles.paddingX}`}
+        className={`my-6 flex flex-row items-center justify-between ${styles.section} ${styles.paddingX}`}
       >
-        <p className="text-[16px] font-normal leading-[24px] text-tertiary">
+        <p className="text-[16px] font-normal leading-[24px] text-gray">
           &copy; 2023 Phat Tran. All rights reserved.
         </p>
         <ul className="flex list-none flex-row items-center gap-x-4">
-          <li>
+          <li className="text-gray">
             <SocialIcon href={data.info.LinkedIn}>
               <BsLinkedin size={24} />
             </SocialIcon>

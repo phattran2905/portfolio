@@ -8,7 +8,7 @@ function SocialIcon({ href, children }: Props) {
     <a
       href={href}
       target="_blank"
-      className="text-tertiary hover:text-primary hover:shadow-md hover:shadow-primary"
+      className="text-tertiary hover:text-secondary hover:shadow-md hover:shadow-primary"
     >
       {children}
     </a>

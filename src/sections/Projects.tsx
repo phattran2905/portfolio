@@ -2,7 +2,7 @@ import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
 } from "react-icons/bs";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { styles } from "../styles";
 import ProjectCard from "../component/ProjectCard";
 import data from "../constants/data";
@@ -15,9 +15,9 @@ function Projects({}: Props) {
     const { current } = scrollRef;
 
     if (direction === "left") {
-      (current as any).scrollLeft -= 350;
+      (current as any).scrollLeft -= 340;
     } else {
-      (current as any).scrollLeft += 350;
+      (current as any).scrollLeft += 340;
     }
   };
 
@@ -35,7 +35,7 @@ function Projects({}: Props) {
         </button>
         <div
           ref={scrollRef}
-          className="flex w-11/12 flex-col gap-y-10 overflow-auto py-10 md:flex-row md:gap-x-16 md:gap-y-0"
+          className="flex w-full gap-y-10 overflow-auto py-10 md:flex-row md:gap-x-10 md:gap-y-1"
         >
           {data.projects.map((project, index) => (
             <ProjectCard
