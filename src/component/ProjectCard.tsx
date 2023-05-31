@@ -18,7 +18,7 @@ function ProjectCard({
   techStackImages,
 }: Props) {
   return (
-    <div className="flex min-w-[320px] flex-col bg-extra-light-gray shadow-lg shadow-gray hover:shadow-primary ">
+    <div className="flex min-w-[380px] flex-col bg-extra-light-gray shadow-lg shadow-gray hover:shadow-primary ">
       <h6 className="w-full rounded-t-[10px] bg-primary py-4 text-center font-bold text-white">
         {name}
       </h6>
