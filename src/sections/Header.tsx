@@ -24,7 +24,7 @@ function Header({}: Props) {
       <div
         className={`flex flex-col items-center justify-between md:flex-row ${styles.paddingX} ${styles.paddingY}`}
       >
-        <div className="flex basis-6/12 flex-col items-start justify-between gap-y-10 pl-16 md:gap-y-16">
+        <div className="flex basis-6/12 flex-col items-start justify-between gap-y-10 md:gap-y-16 md:pl-16">
           <div className="">
             <h1 className="text-[32px] font-semibold text-black">
               Hi! I'm <span className="text-red">Phat Tran</span>

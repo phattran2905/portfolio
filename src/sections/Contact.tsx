@@ -36,9 +36,9 @@ function Contact({}: Props) {
       id="contact"
       className={`${styles.sectionWrapper} bg-extra-light-gray`}
     >
-      <div className={`${styles.section}`}>
+      <div className={`${styles.section} ${styles.paddingX}`}>
         <h2 className={`${styles.heading2} mb-10`}>Contact Me</h2>
-        <div className="flex w-full flex-row justify-between gap-x-10 rounded-lg bg-primary p-20">
+        <div className="flex w-full flex-col justify-between gap-x-10 gap-y-8 rounded-lg bg-primary p-20 md:flex-row ">
           <div className="basis-1/3">
             <div className="flex flex-col gap-y-6">
               <div className="flex flex-row gap-x-4 text-white">

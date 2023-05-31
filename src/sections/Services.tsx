@@ -11,11 +11,11 @@ function Services({}: Props) {
       <div className={`${styles.section} ${styles.paddingX}`}>
         <div className="mb-6">
           <h2 className={`${styles.heading2}`}>What do I help?</h2>
-          <p className={`${styles.paragraph} my-8`}>
+          {/* <p className={`${styles.paragraph} my-8`}>
             I will help you with finding a solution and solve your problems. We
             use proccess design to create digital products. besides that i also
             help their business
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-2 grid-rows-2 gap-10">

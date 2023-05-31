@@ -8,7 +8,7 @@ function Footer({}: Props) {
   return (
     <footer className="flex w-full flex-col items-center justify-center bg-black">
       <div
-        className={`my-6 flex flex-row items-center justify-between ${styles.section} ${styles.paddingX}`}
+        className={`my-4 flex w-full flex-row items-center justify-between md:my-6 md:w-5/6 ${styles.paddingX}`}
       >
         <p className="text-[16px] font-normal leading-[24px] text-gray">
           &copy; 2023 Phat Tran. All rights reserved.

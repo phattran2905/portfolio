@@ -10,10 +10,10 @@ function WorkExperience({}: Props) {
       <div className={`${styles.section} ${styles.paddingX}`}>
         <div className="mb-4">
           <h2 className={`${styles.heading2}`}>Work Experience</h2>
-          <p className={`${styles.paragraph} my-6`}>
+          {/* <p className={`${styles.paragraph} my-6`}>
             Passionate to craft amazing digital product. I can provide your
             business a new creative start right away!
-          </p>
+          </p> */}
         </div>
 
         <div className="flex flex-col py-10">

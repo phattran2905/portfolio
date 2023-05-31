@@ -35,7 +35,7 @@ function Projects({}: Props) {
         </button>
         <div
           ref={scrollRef}
-          className="flex w-full gap-y-10 overflow-x-scroll py-10 md:flex-row md:gap-x-10 md:gap-y-1"
+          className="flex w-full gap-x-6 gap-y-10 overflow-x-scroll py-10 md:flex-row md:gap-x-10 md:gap-y-1"
         >
           {data.projects.map((project, index) => (
             <ProjectCard

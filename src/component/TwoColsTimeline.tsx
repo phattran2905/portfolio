@@ -22,7 +22,9 @@ function TwoColsTimeline({ col1, col2, colorName, icon }: Props) {
       <div className="basis-4/12">
         <div className="just relative flex h-full flex-col items-center py-10">
           <h5 className={`${styles.heading5} text-black`}>{col1.title}</h5>
-          <p className={`${styles.paragraph}`}>{col1.description}</p>
+          <p className={`${styles.paragraph} text-center`}>
+            {col1.description}
+          </p>
         </div>
       </div>
 
