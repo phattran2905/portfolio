@@ -32,7 +32,10 @@ function Contact({}: Props) {
   };
 
   return (
-    <section id="contact" className={`${styles.sectionWrapper}`}>
+    <section
+      id="contact"
+      className={`${styles.sectionWrapper} bg-extra-light-gray`}
+    >
       <div className={`${styles.section}`}>
         <h2 className={`${styles.heading2} mb-10`}>Contact Me</h2>
         <div className="flex w-full flex-row justify-between gap-x-10 rounded-lg bg-primary p-20">

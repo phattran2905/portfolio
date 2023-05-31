@@ -1,6 +1,5 @@
-import learningWebDev from "../assets/learning-web-dev.png";
-import programming3dIllustration from "../assets/programming-3d-illustration.jpg";
-import programming3dIllustrationTrans from "../assets/programming-3d-illustration.png";
+import browser3d from "../assets/browser-3d.png";
+import laptop3d from "../assets/laptop-3d.png";
 import camLogo from "../assets/cam-logo.jpeg";
 import sguLogo from "../assets/sgu-logo.jpeg";
 import nicLogo from "../assets/nic-logo.jpeg";
@@ -30,9 +29,8 @@ import typescriptLogo from "../assets/tech-stack-logo/icons8-typescript-48.png";
 import wordPressLogo from "../assets/tech-stack-logo/icons8-wordpress-48.png";
 
 export default {
-  learningWebDev,
-  programming3dIllustration,
-  programming3dIllustrationTrans,
+  browser3d,
+  laptop3d,
   camLogo,
   sguLogo,
   nicLogo,

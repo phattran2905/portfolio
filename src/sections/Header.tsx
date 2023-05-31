@@ -17,20 +17,25 @@ function Header({}: Props) {
               Hi! I'm <span className="text-red">Phat Tran</span>
               <br />
               <span className="mb-10 mt-6 inline-block text-[64px] font-bold leading-[76px] text-primary">
-                Web Developer
+                {data.about.occupation}
               </span>
             </h1>
 
             <p className="mb-10 text-[20px] font-normal leading-[36px] text-tertiary">
-              I’m a UI/UX Designer, creating bold and brave Interface design for
-              companies all across the world
+              {data.about.biography}
             </p>
 
             <div className="flex flex-row">
-              <a className="cursor-pointer rounded-[8px] bg-primary px-10 py-4 text-[16px] font-semibold leading-[24px] text-white duration-200 ease-in-out hover:underline hover:shadow-md hover:shadow-primary">
-                Let's Talk
+              <a
+                href="#contact"
+                className="cursor-pointer rounded-[8px] bg-primary px-10 py-4 text-[16px] font-semibold leading-[24px] text-white duration-200 ease-in-out hover:underline hover:shadow-md hover:shadow-primary"
+              >
+                Hire me
               </a>
-              <a className="ml-6 cursor-pointer rounded-[8px] bg-gray px-10 py-4 text-[16px] font-normal leading-[24px] text-black duration-200 ease-in hover:underline hover:shadow-md hover:shadow-primary">
+              <a
+                href="#projects"
+                className="ml-6 cursor-pointer rounded-[8px] bg-gray px-10 py-4 text-[16px] font-semibold leading-[24px] text-black duration-200 ease-in hover:underline hover:shadow-md hover:shadow-primary"
+              >
                 Portfolio
               </a>
             </div>
@@ -54,7 +59,7 @@ function Header({}: Props) {
 
         <div className="h-[540px] w-full basis-6/12">
           <img
-            src={images.programming3dIllustrationTrans}
+            src={images.laptop3d}
             alt="learning web dev"
             className="h-[100%] w-[100%] object-fill"
           />

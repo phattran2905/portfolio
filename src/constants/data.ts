@@ -2,9 +2,11 @@ import images from "./images";
 
 const navLinks = [
   { id: "home", title: "Home" },
-  { id: "about", title: "About" },
+  // { id: "services", title: "Services" },
+  { id: "work-experience", title: "Experience" },
   { id: "skills", title: "Skills" },
-  { id: "portfolio", title: "Portfolio" },
+  { id: "projects", title: "Projects" },
+  { id: "education", title: "Education" },
   { id: "contact", title: "Contact" },
 ];
 
@@ -16,11 +18,18 @@ const info = {
   Location: "Canada",
 };
 
-const about = {};
+const about = {
+  occupation: "Web developer",
+  biography:
+    "I have a strong desire to utilize technology in a way that benefits individuals and enhances their lives.",
+  // biography:
+  //   "I have a strong desire to utilize technology in a way that benefits individuals and enhances their lives. I am constantly on the lookout for opportunities to grow and develop personally.",
+};
+
 const workExperience = [
   {
     company: "Pi Solution",
-    timeline: "March 2021 - September 2021",
+    timeline: "March - September 2021",
     position: "Javascript Developer",
     subtitle: "Short-term Contract",
     description:
@@ -37,10 +46,10 @@ const education = [
     logo: images.sguLogo,
   },
   {
-    school: "Cambridge",
+    school: "IDP Education",
     timeline: "2020",
-    degreeName: "Certificate",
-    major: "IELTS",
+    degreeName: "English Certificate",
+    major: "IELTS Academic",
     gpa: "Overall of 6.5 (L: 7.0, R: 6.5, S: 6.0, W: 6.0)",
     logo: images.camLogo,
   },
@@ -155,7 +164,7 @@ const skills = [
 const projects = [
   {
     name: "Monster Land",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "React", img: images.reactLogo },
@@ -170,7 +179,7 @@ const projects = [
   },
   {
     name: "Mint RoboPunkNFT",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -183,7 +192,7 @@ const projects = [
   },
   {
     name: "Wallee",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "React Native", img: images.reactNativeLogo },
@@ -196,7 +205,7 @@ const projects = [
   },
   {
     name: "Fitness (Landing Page)",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -208,7 +217,7 @@ const projects = [
   },
   {
     name: "Bank (Landing Page)",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -220,7 +229,7 @@ const projects = [
   },
   {
     name: "Fine Dinning (Landing Page)",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -232,7 +241,7 @@ const projects = [
   },
   {
     name: "GPT3 (Landing Page)",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -244,7 +253,7 @@ const projects = [
   },
   {
     name: "Tree and Shrubs",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "HTML", img: images.htmlLogo },
@@ -255,7 +264,7 @@ const projects = [
   },
   {
     name: "Comox Valley Lifeline Society",
-    imgSrc: images.learningWebDev,
+    imgSrc: images.browser3d,
     description: "A web-based game",
     techStackImages: [
       { name: "WordPress", img: images.wordPressLogo },

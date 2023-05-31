@@ -54,7 +54,7 @@ function ProjectCard({
           <a
             href={demoUrl}
             target="_blank"
-            className="flex basis-1/2 flex-row items-center justify-center rounded-lg bg-primary px-4 py-2 font-semibold text-white transition duration-200 hover:bg-secondary"
+            className="flex basis-1/2 flex-row items-center justify-center rounded-lg bg-primary px-4 py-2 font-semibold text-white transition duration-200 hover:bg-black"
           >
             <FiExternalLink size={16} className="mr-2" />
             Demo
@@ -62,7 +62,7 @@ function ProjectCard({
           <a
             href={githubUrl}
             target="_blank"
-            className="flex basis-1/2 flex-row items-center justify-center rounded-lg bg-tertiary px-4 py-2 font-semibold text-white transition duration-200 hover:bg-secondary"
+            className="flex basis-1/2 flex-row items-center justify-center rounded-lg bg-tertiary px-4 py-2 font-semibold text-white transition duration-200 hover:bg-black"
           >
             <BsGithub size={16} className="mr-2" />
             GitHub
