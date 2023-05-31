@@ -164,7 +164,7 @@ const skills = [
 const projects = [
   {
     name: "Monster Land",
-    imgSrc: images.browser3d,
+    imgSrc: images.monsterLandMockup,
     description:
       "A web game about collecting monsters and nurturing them to conquer challenges",
     techStackImages: [
@@ -181,7 +181,7 @@ const projects = [
   },
   {
     name: "Wallee",
-    imgSrc: images.browser3d,
+    imgSrc: images.walleeMockup,
     description:
       "A mobile application for scanning QR codes to identify Student ID cards and tickets.",
     techStackImages: [
@@ -190,12 +190,13 @@ const projects = [
       { name: "Javascript", img: images.javascriptLogo },
       { name: "AdobeXD", img: images.adobeXdLogo },
     ],
-    demoUrl: "",
-    githubUrl: "",
+    demoUrl: "https://shorturl.at/lsZ08",
+    githubUrl:
+      "https://github.com/nic-dgl214-wi23/dgl214-semester-project-phattran2905",
   },
   {
     name: "Fitness",
-    imgSrc: images.browser3d,
+    imgSrc: images.fitnessMockup,
     description: "A landing page for a fitness center.",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -207,7 +208,7 @@ const projects = [
   },
   {
     name: "HooBank",
-    imgSrc: images.browser3d,
+    imgSrc: images.bankMockup,
     description: "A landing page introducing services for a bank.",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -219,7 +220,7 @@ const projects = [
   },
   {
     name: "Fine Dining",
-    imgSrc: images.browser3d,
+    imgSrc: images.fineDiningMockup,
     description: "A landing page for a fine dining restaurant.",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -231,7 +232,7 @@ const projects = [
   },
   {
     name: "GPT3",
-    imgSrc: images.browser3d,
+    imgSrc: images.gpt3Mockup,
     description: "A landing page introducing a technology company.",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
@@ -243,7 +244,7 @@ const projects = [
   },
   {
     name: "Mint RoboPunkNFT",
-    imgSrc: images.browser3d,
+    imgSrc: images.mintRobopunkMockup,
     description:
       "A web application for minting NFT assets on the Sepolia network.",
     techStackImages: [
@@ -255,17 +256,19 @@ const projects = [
     demoUrl: "https://robopunks-nft-mint.netlify.app/",
     githubUrl: "https://github.com/phattran2905/web3-mint-website",
   },
-  // {
-  //   name: "Tree and Shrubs",
-  //   imgSrc: images.browser3d,
-  //   description: "A website for a local business selling tree and shrubs.",
-  //   techStackImages: [
-  //     { name: "HTML", img: images.htmlLogo },
-  //     { name: "CSS", img: images.cssLogo },
-  //   ],
-  //   demoUrl: "",
-  //   githubUrl: "",
-  // },
+  {
+    name: "Tree and Shrubs",
+    imgSrc: images.treeAndShrubsMockup,
+    description: "A website for a local business selling tree and shrubs.",
+    techStackImages: [
+      { name: "HTML", img: images.htmlLogo },
+      { name: "CSS", img: images.cssLogo },
+      { name: "AdobeXD", img: images.adobeXdLogo },
+    ],
+    demoUrl: "https://nic-dgl103-f21-dlu.github.io/websiteproject-ducphattran/",
+    githubUrl:
+      "https://github.com/nic-dgl103-f21-dlu/websiteproject-ducphattran",
+  },
   // {
   //   name: "Comox Valley Lifeline Society",
   //   imgSrc: images.browser3d,

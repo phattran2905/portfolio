@@ -15,9 +15,9 @@ function Projects({}: Props) {
     const { current } = scrollRef;
 
     if (direction === "left") {
-      (current as any).scrollLeft -= 340;
+      (current as any).scrollLeft -= 600;
     } else {
-      (current as any).scrollLeft += 340;
+      (current as any).scrollLeft += 600;
     }
   };
 

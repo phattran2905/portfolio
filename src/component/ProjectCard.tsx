@@ -18,19 +18,21 @@ function ProjectCard({
   techStackImages,
 }: Props) {
   return (
-    <div className="flex min-h-[600px] min-w-[320px] flex-col bg-extra-light-gray shadow-lg shadow-gray hover:shadow-primary">
+    <div className="flex min-w-[320px] flex-col bg-extra-light-gray shadow-lg shadow-gray hover:shadow-primary ">
       <h6 className="w-full rounded-t-[10px] bg-primary py-4 text-center font-bold text-white">
         {name}
       </h6>
-      <div className="h-[300px] w-full rounded-lg">
+      <div className="w-full rounded-lg bg-slate-100">
         <img
           src={imageSrc}
-          alt=""
+          alt={name}
           className="h-[100%] w-[100%] object-contain"
         />
       </div>
       <div className="flex h-full w-full flex-col gap-y-4 border-t-2 border-t-primary px-5 py-4">
-        <p className={`text-[16px] font-normal text-tertiary`}>{description}</p>
+        <p className={`my-4 text-[16px] font-normal text-tertiary`}>
+          {description}
+        </p>
 
         <div className="mt-auto flex flex-col gap-y-4">
           <div className="flex flex-col gap-y-1">

@@ -1,5 +1,15 @@
 import browser3d from "../assets/browser-3d.png";
 import laptop3d from "../assets/laptop-3d.png";
+// Projects
+import bankMockup from "../assets/project-mockups/bank.png";
+import fineDiningMockup from "../assets/project-mockups/fine-dining.png";
+import fitnessMockup from "../assets/project-mockups/fitness.png";
+import gpt3Mockup from "../assets/project-mockups/gpt3.png";
+import mintRobopunkMockup from "../assets/project-mockups/mint-robopunk.png";
+import walleeMockup from "../assets/project-mockups/wallee.png";
+import monsterLandMockup from "../assets/project-mockups/monster-land.png";
+import treeAndShrubsMockup from "../assets/project-mockups/tree-and-shrubs.png";
+// Logos
 import camLogo from "../assets/cam-logo.jpeg";
 import sguLogo from "../assets/sgu-logo.jpeg";
 import nicLogo from "../assets/nic-logo.jpeg";
@@ -31,6 +41,14 @@ import wordPressLogo from "../assets/tech-stack-logo/icons8-wordpress-48.png";
 export default {
   browser3d,
   laptop3d,
+  bankMockup,
+  fineDiningMockup,
+  fitnessMockup,
+  gpt3Mockup,
+  mintRobopunkMockup,
+  walleeMockup,
+  monsterLandMockup,
+  treeAndShrubsMockup,
   camLogo,
   sguLogo,
   nicLogo,
