@@ -1,6 +1,6 @@
 import Service from "../component/Service";
 import { styles } from "../styles";
-import { BsCodeSlash, BsSearch, BsCheckCircle } from "react-icons/bs";
+import { BsCodeSlash, BsCheckCircle } from "react-icons/bs";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { BiMobile } from "react-icons/bi";
 

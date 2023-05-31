@@ -22,7 +22,7 @@ function Projects({}: Props) {
   };
 
   return (
-    <section id="projects" className={`${styles.sectionWrapper} bg-blue-50`}>
+    <section id="projects" className={`${styles.sectionWrapper} bg-indigo-50`}>
       <h2 className={`${styles.heading2} my-10 text-left`}>Projects</h2>
 
       <div className="flex w-full flex-row items-center justify-between gap-x-4  px-6">
@@ -35,7 +35,7 @@ function Projects({}: Props) {
         </button>
         <div
           ref={scrollRef}
-          className="flex w-full gap-y-10 overflow-auto py-10 md:flex-row md:gap-x-10 md:gap-y-1"
+          className="flex w-full gap-y-10 overflow-x-scroll py-10 md:flex-row md:gap-x-10 md:gap-y-1"
         >
           {data.projects.map((project, index) => (
             <ProjectCard
