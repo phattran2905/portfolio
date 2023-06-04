@@ -50,7 +50,7 @@ function Header({}: Props) {
                 href="https://drive.google.com/file/d/1fKhc5LGF8darYfjA-DXgp94O5WOZT38B/view?usp=sharing"
                 className="ml-6 cursor-pointer rounded-[8px] bg-gray px-10 py-4 text-[16px] font-semibold leading-[24px] text-black duration-200 ease-in hover:underline hover:shadow-md hover:shadow-primary"
               >
-                See Resume
+                View Resume
               </a>
             </div>
           </div>
