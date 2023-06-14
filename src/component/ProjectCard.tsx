@@ -44,9 +44,9 @@ function ProjectCard({
             {techStackImages.map((tech, index) => (
               <li
                 key={index}
-                className="flex flex-row items-center rounded-lg border-[1px] border-gray p-1 p-[1px] shadow-sm shadow-gray"
+                className="flex flex-row items-center rounded-md border-[1px] border-gray p-[1px] shadow-sm shadow-gray"
               >
-                <div className="h-[24px] w-[24px] ">
+                <div className="h-[24px] w-[24px]">
                   <img
                     src={tech.img}
                     alt={tech.name}

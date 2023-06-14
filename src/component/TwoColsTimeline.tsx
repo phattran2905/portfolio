@@ -3,12 +3,13 @@ import { styles } from "../styles";
 type Props = {
   col1: {
     title: string;
-    description: string;
+    timeline: string;
+    timelineLength: string | null;
   };
   col2: {
     title: string;
     subtitle: string;
-    description: string;
+    description: string[];
   };
   colorName?: string;
   icon: React.ReactNode;
@@ -22,9 +23,12 @@ function TwoColsTimeline({ col1, col2, colorName, icon }: Props) {
       <div className="basis-4/12">
         <div className="just relative flex h-full flex-col items-center py-10">
           <h5 className={`${styles.heading5} text-black`}>{col1.title}</h5>
-          <p className={`${styles.paragraph} text-center`}>
-            {col1.description}
-          </p>
+          <p className={`${styles.paragraph} text-center`}>{col1.timeline}</p>
+          {col1.timelineLength && (
+            <span className="italic text-tertiary">
+              ({col1.timelineLength})
+            </span>
+          )}
         </div>
       </div>
 
@@ -42,7 +46,11 @@ function TwoColsTimeline({ col1, col2, colorName, icon }: Props) {
           <p className={`my-1 font-bold italic text-tertiary`}>
             {col2.subtitle}
           </p>
-          <p className={`${styles.paragraph} my-2`}>{col2.description}</p>
+          <ul className="list-disc">
+            {col2.description.map((desc) => (
+              <li className={`${styles.paragraph} my-2`}>{desc}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ function Service({ title, description, icon }: Props) {
       <div>{icon}</div>
       <div>
         <h5 className="font-semibold capitalize">{title}</h5>
-        <p className="mt-4 text-[16px] font-normal leading-[24px] text-tertiary ">
+        <p className="mt-4 max-w-[500px] text-[16px] font-normal leading-[24px] text-tertiary">
           {description}
         </p>
       </div>

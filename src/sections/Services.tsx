@@ -18,7 +18,7 @@ function Services({}: Props) {
           </p> */}
         </div>
 
-        <div className="grid grid-cols-2 grid-rows-2 gap-10">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 grid-rows-2 gap-x-20 gap-y-10">
           <Service
             title="Web development"
             description="Building, creating, and maintaining websites. It includes

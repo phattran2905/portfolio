@@ -23,7 +23,8 @@ function WorkExperience({}: Props) {
               colorName="primary"
               col1={{
                 title: experience.company,
-                description: experience.timeline,
+                timeline: experience.timeline,
+                timelineLength: experience?.timelineLength,
               }}
               col2={{
                 title: experience.position,

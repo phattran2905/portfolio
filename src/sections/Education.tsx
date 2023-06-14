@@ -14,7 +14,6 @@ function Education({}: Props) {
             business a new creative start right away!
           </p> */}
         </div>
-
         <div className="flex flex-col py-10">
           {data.education.map((degree, index) => (
             <TwoColsTimeline
@@ -22,12 +21,13 @@ function Education({}: Props) {
               colorName="primary"
               col1={{
                 title: degree.school,
-                description: degree.timeline,
+                timeline: degree.timeline,
+                timelineLength: degree?.timelineLength,
               }}
               col2={{
                 title: degree.degreeName,
                 subtitle: degree.major,
-                description: degree.gpa,
+                description: degree.description,
               }}
               icon={
                 <img

@@ -28,38 +28,67 @@ const about = {
 
 const workExperience = [
   {
+    company: "Ogilvy Vietnam",
+    timeline: "March - June 2018",
+    timelineLength: "4 months",
+    position: "PHP Developer",
+    subtitle: "Internship",
+    description: [
+      "Engineered an API back-end system using Symfony 3 for a lucky draw campaign, allowing 300+ users to participate in the event.",
+      "Maintained and managed legacy projects using Drupal.",
+    ],
+  },
+  {
+    company: "YRB Solutions",
+    timeline: "October 2019 - March 2020",
+    timelineLength: "6 months",
+    position: "Web Developer",
+    subtitle: "Internship",
+    description: [
+      "Developed and maintained websites using WordPress for local businesses and marketing campaigns.",
+      "Converted UI designs from PhotoShop and Figma to web components using ReactJS.",
+    ],
+  },
+  {
     company: "Pi Solution",
-    timeline: "March - September 2021",
+    timeline: "March - August 2021",
+    timelineLength: "6 months",
     position: "Javascript Developer",
-    subtitle: "Short-term Contract",
-    description:
-      "A visual designer designs for a variety of platforms, which may include internet and intranet sites, games, movies and wearables in short, they create a concepts",
+    subtitle: "Contract",
+    description: [
+      "Developed a web-based tool using ReactJS that automatically makes 30+ cryptocurrency transactions per minute, enabling the finance team to focus on other high-priority tasks.",
+      "Engineered 4 Express REST API systems automatically make cryptocurrency transactions to balance the market price, preventing anonymous withdrawals before the deadline.",
+      "Ideated and developed an observation bot on Telegram to inspect the market and back-end systems, keeping everybody informed seamlessly.",
+    ],
   },
 ];
 const education = [
   {
-    school: "Saigon University",
-    timeline: "2014 - 2019",
-    degreeName: "Bachelor of Engineering",
-    major: "Information Technology",
-    gpa: "GPA: 3.0/4.0",
-    logo: images.sguLogo,
+    school: "North Island College",
+    timeline: "2021 - 2023",
+    timelineLength: null,
+    degreeName: "Post-graduate Diploma",
+    major: "Web and Mobile Application Development",
+    description: ["GPA: 4.13/4.33"],
+    logo: images.nicLogo,
   },
   {
     school: "IDP Education",
     timeline: "2020",
+    timelineLength: null,
     degreeName: "English Certificate",
     major: "IELTS Academic",
-    gpa: "Overall of 6.5 (L: 7.0, R: 6.5, S: 6.0, W: 6.0)",
+    description: ["Overall of 6.5"],
     logo: images.camLogo,
   },
   {
-    school: "North Island College",
-    timeline: "2021 - 2023",
-    degreeName: "Post-graduate Diploma",
-    major: "Web and Mobile Application Development",
-    gpa: "GPA: 4.13/4.33",
-    logo: images.nicLogo,
+    school: "Saigon University",
+    timeline: "2014 - 2019",
+    timelineLength: null,
+    degreeName: "Bachelor of Engineering",
+    major: "Information Technology",
+    description: ["GPA: 2.8/4.0"],
+    logo: images.sguLogo,
   },
 ];
 const skills = [
