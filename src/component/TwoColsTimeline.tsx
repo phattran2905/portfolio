@@ -9,7 +9,7 @@ type Props = {
   col2: {
     title: string;
     subtitle: string;
-    description: string[];
+    description: Array<string | null>;
   };
   colorName?: string;
   icon: React.ReactNode;
@@ -43,7 +43,7 @@ function TwoColsTimeline({ col1, col2, colorName, icon }: Props) {
       <div className="basis-8/12">
         <div className="w-full px-12 py-10">
           <h5 className={`${styles.heading5} text-primary`}>{col2.title}</h5>
-          <p className={`my-1 font-bold italic text-tertiary`}>
+          <p className={`my-1 text-[18px] font-bold italic text-tertiary`}>
             {col2.subtitle}
           </p>
           <ul className="list-disc">

@@ -15,9 +15,9 @@ function App() {
       <Header />
       <Services />
       <WorkExperience />
-      <TechStack />
-      <Projects />
       <Education />
+      <Projects />
+      <TechStack />
       <Contact />
       <Footer />
     </div>
