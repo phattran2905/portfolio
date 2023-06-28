@@ -9,6 +9,7 @@ import mintRobopunkMockup from "../assets/project-mockups/mint-robopunk.png";
 import walleeMockup from "../assets/project-mockups/wallee.png";
 import monsterLandMockup from "../assets/project-mockups/monster-land.png";
 import treeAndShrubsMockup from "../assets/project-mockups/tree-and-shrubs.png";
+import adminDashboardMockup from "../assets/project-mockups/admin-dashboard.png";
 // Logos
 import camLogo from "../assets/cam-logo.jpeg";
 import sguLogo from "../assets/sgu-logo.jpeg";
@@ -49,6 +50,7 @@ export default {
   walleeMockup,
   monsterLandMockup,
   treeAndShrubsMockup,
+  adminDashboardMockup,
   camLogo,
   sguLogo,
   nicLogo,

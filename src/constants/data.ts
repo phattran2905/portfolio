@@ -210,6 +210,21 @@ const projects = [
     githubUrl: "https://github.com/phattran2905/monster-land",
   },
   {
+    name: "Admin Dashboard",
+    imgSrc: images.adminDashboardMockup,
+    description:
+      "This is a web-based tool system that assists in managing customers, products, and sales. It also provides statistical information that is displayed on various types of charts.",
+    techStackImages: [
+      { name: "React", img: images.reactLogo },
+      { name: "ExpressJs", img: images.expressJsLogo },
+      { name: "MongoDB", img: images.mongoDbLogo },
+      { name: "Redux", img: images.reduxLogo },
+      { name: "NodeJs", img: images.nodeJSLogo },
+    ],
+    demoUrl: "https://fe-mern-admin-dashboard.onrender.com/dashboard",
+    githubUrl: "https://github.com/phattran2905/mern-admin-dashboard",
+  },
+  {
     name: "Wallee",
     imgSrc: images.walleeMockup,
     description:
