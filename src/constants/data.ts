@@ -221,7 +221,7 @@ const projects = [
       { name: "Redux", img: images.reduxLogo },
       { name: "NodeJs", img: images.nodeJSLogo },
     ],
-    demoUrl: "https://fe-mern-admin-dashboard.onrender.com/dashboard",
+    demoUrl: "https://admin-dashboard-phattran.netlify.app/dashboard",
     githubUrl: "https://github.com/phattran2905/mern-admin-dashboard",
   },
   {
