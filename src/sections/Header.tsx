@@ -47,7 +47,7 @@ function Header({}: Props) {
               </a>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1fabSb5_4VML33tM1fOb3cudzhhpmwwh5/view?usp=sharing"
+                href="https://drive.google.com/file/d/1D8XHCYzFD-moZoXara9hNdvBvJkHatWQ/view?usp=sharing"
                 className="ml-6 cursor-pointer rounded-[8px] bg-gray px-10 py-4 text-[16px] font-semibold leading-[24px] text-black duration-200 ease-in hover:underline hover:shadow-md hover:shadow-primary"
               >
                 View Resume
