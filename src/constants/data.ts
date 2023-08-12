@@ -130,6 +130,10 @@ const skills = [
     logo: images.mongoDbLogo,
   },
   {
+    name: "NextJS",
+    logo: images.nextjsLogo,
+  },
+  {
     name: "React Native",
     logo: images.reactNativeLogo,
   },
@@ -208,6 +212,21 @@ const projects = [
     ],
     demoUrl: "https://monster-land.netlify.app/",
     githubUrl: "https://github.com/phattran2905/monster-land",
+  },
+  {
+    name: "Netflix Clone",
+    imgSrc: images.netflixCloneMockup,
+    description:
+      "•A cloned version of Netflix built with NextJS 13 using App Router",
+    techStackImages: [
+      { name: "Typescript", img: images.typescriptLogo },
+      { name: "React", img: images.reactLogo },
+      { name: "NextJS", img: images.nextjsLogo },
+      { name: "Prisma", img: images.prismaLogo },
+      { name: "TailwindCSS", img: images.tailwindcssLogo },
+    ],
+    demoUrl: "https://netflix-clone-phattran.vercel.app/profiles",
+    githubUrl: "https://github.com/phattran2905/nextjs-netflix-clone",
   },
   {
     name: "Admin Dashboard",

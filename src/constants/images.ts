@@ -10,6 +10,7 @@ import walleeMockup from "../assets/project-mockups/wallee.png";
 import monsterLandMockup from "../assets/project-mockups/monster-land.png";
 import treeAndShrubsMockup from "../assets/project-mockups/tree-and-shrubs.png";
 import adminDashboardMockup from "../assets/project-mockups/admin-dashboard.png";
+import netflixCloneMockup from "../assets/project-mockups/netflix-clone-nextjs.png";
 // Logos
 import camLogo from "../assets/cam-logo.jpeg";
 import sguLogo from "../assets/sgu-logo.jpeg";
@@ -38,6 +39,7 @@ import solidityLogo from "../assets/tech-stack-logo/icons8-solidity-48.png";
 import tailwindcssLogo from "../assets/tech-stack-logo/icons8-tailwindcss-48.png";
 import typescriptLogo from "../assets/tech-stack-logo/icons8-typescript-48.png";
 import wordPressLogo from "../assets/tech-stack-logo/icons8-wordpress-48.png";
+import nextjsLogo from "../assets/tech-stack-logo/nextjs-logo.png";
 
 export default {
   browser3d,
@@ -51,6 +53,7 @@ export default {
   monsterLandMockup,
   treeAndShrubsMockup,
   adminDashboardMockup,
+  netflixCloneMockup,
   camLogo,
   sguLogo,
   nicLogo,
@@ -78,4 +81,5 @@ export default {
   tailwindcssLogo,
   typescriptLogo,
   wordPressLogo,
+  nextjsLogo,
 };
