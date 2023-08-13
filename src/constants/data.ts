@@ -217,7 +217,7 @@ const projects = [
     name: "Netflix Clone",
     imgSrc: images.netflixCloneMockup,
     description:
-      "•A cloned version of Netflix built with NextJS 13 using App Router",
+      "A cloned version of Netflix built with NextJS 13 using App Router",
     techStackImages: [
       { name: "Typescript", img: images.typescriptLogo },
       { name: "React", img: images.reactLogo },
@@ -225,7 +225,7 @@ const projects = [
       { name: "Prisma", img: images.prismaLogo },
       { name: "TailwindCSS", img: images.tailwindcssLogo },
     ],
-    demoUrl: "https://netflix-clone-phattran.vercel.app/profiles",
+    demoUrl: "https://netflix-clone-phattran.vercel.app/auth",
     githubUrl: "https://github.com/phattran2905/nextjs-netflix-clone",
   },
   {
